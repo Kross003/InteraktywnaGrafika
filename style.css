@@ -32,7 +32,8 @@ padding: 2px 2px 2px 2px;
 float:none;
 /* width:896px; */
 height:27px;
-background-color:#87CEEB;
+background-color:#373537;
+color:#D1D9D1;
 display: flex;
 }
 
@@ -94,7 +95,7 @@ flex:auto;
 	height:23px;
 
 	border-top-style: solid;
-	border-top-color: gray;
+	border-top-color: #3F453F;
 	border-top-width: 2px;
 }
 
@@ -103,7 +104,7 @@ padding: 2px 10px;
 float:none;
 /* width:892px; */
 height:23px;
-background-color:#4E5B31;
+background-color:#373537;
 }
 
 .link_foot>a {
@@ -119,14 +120,23 @@ float:left;
 padding:3px 2px 0px 2px;
 height: 20px;
 margin-left:5px;
+}
 
-
+.link_nav a{
+color: #D1D9D1;
+padding: 0px 10px 0px 0px;
+}
+.link_nav a:hover{
+	color:#87CEEB;
+	background-color: #474547;
+	border-radius: 20px;
+	padding: 0px 5px 0px 5px;
 }
 
 .link {
 padding-left:10px;
-height:20px;
-margin-bottom:2px;
+/* height:20px; */
+/* margin-bottom:2px; */
 /* background-color:#99CFFF; */
 
 }
@@ -134,36 +144,39 @@ margin-bottom:2px;
 .link_selected {
 padding-left:8px;
 /* height:20px; */
-margin:2px;
+/* margin:2px; */
 /* background-color:#99CFFF; */
 font-size:1.2em;
 font-weight:600;
-
-display: flex;
-
 }
 .sub_link, .sub_sub_link, .link, .link_selected{
-	text-align: left;
 	background-color: #374537;
 	border-radius: 20px;
-	padding-left: 10px;
-
+	padding: 3px 0px 3px 10px;
+	margin: 2px 0px 2px 0px;
+	/* pointer-events: none; */
 }
 .module a{
+	padding: 0px 10px 0px 0px; 
 	color:#D1D9D1;
+	/* pointer-events: auto; */
 }
 .module a:hover{
+	/* font-size: 110%; */
 	color:#87CEEB;
 	background-color: #405040;
 	border-radius: 20px;
-	padding: 0px 5px 0px 5px;
+	padding: 0px 5px 0px 5px; 
 }
+/* .sub_link:hover, .sub_sub_link:hover, .link:hover, .link_selected:hover{
+	padding: 3px 0px 4px 15px;;
+} */
 
 .sub_link {
 margin-left:15px;
-height:20px;
+/* height:20px; */
 font-size:0.9em;
-margin-bottom:2px;
+/* margin-bottom:2px; */
 /* background-color:#99CFFF; */
 
 
@@ -173,7 +186,7 @@ margin-bottom:2px;
 margin-left:30px;
 /* height:20px; */
 font-size:0.8em;
-margin-bottom:2px;
+/* margin-bottom:2px; */
 /* background-color:#99CFFF; */
 
 }
