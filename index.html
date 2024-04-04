@@ -8,7 +8,8 @@
 <meta name = "keywords" content = "Military, Aircraft, Jets">
 <meta name = "author" content = "KZ">
 <link href="style.css" rel="stylesheet" type="text/css" />
-<style type="text/css"> } </style>
+<style type="text/css"> </style>
+<script src="scripts.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 </div>
 <div id="top_nav">
 	<div id="top_nav_box">
-		<div class="path">Current path</div> <div class="link_nav"> <a href="" > Lorem 1 </a></div> <div class="link_nav"><a href="" > Lorem 2 </a></div> <div class="link_nav"><a href="" > Lorem 3 </a></div>
+		<div class="path">Current path</div> <div class="link_nav"> <a  href="javascript:WyswietlArtykul()" > Artykuł </a></div> <div class="link_nav"><a href="javascript:WyswietlGalerie()" > Galeria </a></div> <div class="link_nav"><a href="" > Lorem 3 </a></div>
 	</div>
 </div>
 <div id="container">
@@ -53,7 +54,7 @@
 	</div>
 	
 	<div id="page_content">
-		<div class="article">
+		<div class="article" id="article">
 			<div class="article_title">
 				Świat miliarnego lotnictwa
 			</div>
@@ -89,14 +90,34 @@
 	</ol></p>
 			<p class="p3"></p>
 			</div>
+			<p>
+				Helikoptery wojskowe stanowią istotny element sił zbrojnych, zapewniając wszechstronną mobilność, wsparcie ogniowe i możliwość reagowania w sytuacjach kryzysowych na każdym rodzaju terenu. Ich wszechstronność sprawia, że są niezbędnym narzędziem w misjach ratunkowych, dostawczych, bojowych i transportowych. Od pierwszych prototypów po dzisiejsze zaawansowane modele, helikoptery wojskowe kontynuują ewolucję, dostosowując się do zmieniających się potrzeb pola walki i technologicznych innowacji. Przez dziesięciolecia pełnią kluczową rolę w zapewnianiu wsparcia i bezpieczeństwa zarówno na froncie, jak i w misjach humanitarnych na całym świecie.
+			</p>
 		</div>
-	
-	
-
-<p>
-	Helikoptery wojskowe stanowią istotny element sił zbrojnych, zapewniając wszechstronną mobilność, wsparcie ogniowe i możliwość reagowania w sytuacjach kryzysowych na każdym rodzaju terenu. Ich wszechstronność sprawia, że są niezbędnym narzędziem w misjach ratunkowych, dostawczych, bojowych i transportowych. Od pierwszych prototypów po dzisiejsze zaawansowane modele, helikoptery wojskowe kontynuują ewolucję, dostosowując się do zmieniających się potrzeb pola walki i technologicznych innowacji. Przez dziesięciolecia pełnią kluczową rolę w zapewnianiu wsparcia i bezpieczeństwa zarówno na froncie, jak i w misjach humanitarnych na całym świecie.
-</p>
-
+		<div class="gallery" id="gallery">
+			<div class="gallery_photos">
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/a1.jpg" alt="Fairchild A-10 Thunderbolt II"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/a2.jpg" alt="Fairchild A-10 Thunderbolt II"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/a3.jpg" alt="Fairchild A-10 Thunderbolt II"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/ah64.jpg" alt="Boeing AH-64 Apache"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/ch47.jpg"  alt="Boeing CH-47 Chinook"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/f15.jpg" alt="McDonnell Douglas F-15 Eagle"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/f16.jpg" alt="General Dynamics F-16 Fighting Falcon/Viper"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/f18.jpg" alt="McDonnell Douglas F/A-18 Hornet"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/mh6.jpg" alt="Hughes MH-6 Little Bird"></a>
+				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/v22.jpg" alt="Bell-Boeing V-22 Osprey"></a>
+			</div>
+			<div class="gallery_shownPhoto" id="gallery_shownPhoto">
+				<h2 id="gallery_photoCaption" class="gallery_photoCaption"></h2>
+				<img id="gallery_shownPhotoimg" src="" width="100%">
+			</div>
+		</div>
+		<script>
+			var article = document.getElementById("article");
+			var gallery = document.getElementById("gallery");
+			document.getElementById("page_content").innerHTML = "";
+			WyswietlArtykul();
+		</script>
 	</div>
 	<!-- -->
 	<div id="right_col">
