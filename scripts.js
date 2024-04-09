@@ -1,10 +1,5 @@
-function clearPageContent(){
-
-}
-
 function WyswietlGalerie(){
     document.getElementById("page_content").innerHTML = '';
-    //document.removeChild()
     document.getElementById("page_content").appendChild(gallery);
 }
 
@@ -14,7 +9,9 @@ function WyswietlArtykul(){
 }
 
 function WyswietlGlownyObraz(obraz){
-    document.getElementById("gallery_shownPhotoimg").classList.remove("scale-out-horizontal");
+    var image = obraz.firstChild;
+    image.classList = "";
+    document.getElementById("gallery_shownPhotoimg").classList = "";
 
     
     var oldPhoto = document.getElementById("gallery_shownPhoto").innerHTML;
@@ -24,7 +21,7 @@ function WyswietlGlownyObraz(obraz){
     // var DuzyObraz = document.getElementById("gallery_shownPhotoimg").cloneNode(true);
     // document.getElementById("gallery_shownPhotoimg").setAttribute("hidden");
 
-    var image = obraz.firstChild;
+    
     var targetElement = document.getElementById("gallery_shownPhotoimg");
 
     var imageRect = image.getBoundingClientRect();
@@ -34,8 +31,8 @@ function WyswietlGlownyObraz(obraz){
     image.style.setProperty("--offset-x", offsetX + "px");
     image.style.setProperty("--offset-y", offsetY + "px");
 
-    var scaleX = Math.round((targetRect.right - targetRect.left) / (imageRect.right - imageRect.left)*100)/100;
-    var scaleY = Math.round((targetRect.bottom - targetRect.top) / (imageRect.bottom - imageRect.top)*100)/100;
+    var scaleX = targetRect.width / imageRect.width*1.03;
+    var scaleY = targetRect.height / imageRect.height*1.03;
     image.style.setProperty("--scaleX", scaleX);
     image.style.setProperty("--scaleY", scaleY);
     // console.log(`skala x: ${scaleX}, skala y: ${scaleY}`)
@@ -48,12 +45,22 @@ function WyswietlGlownyObraz(obraz){
     document.getElementById("gallery_shownPhotoimg").classList.add("scale-out-horizontal");
 
     image.classList.add("move-to-target");
-    image.addEventListener("animationend", function() {
-        image.classList.remove("move-to-target");
-        // document.getElementById("gallery_shownPhoto").style.visibility = "visible";
-        document.getElementById("gallery_shownPhotoimg").classList.remove("scale-out-horizontal");
-        document.getElementById("gallery_shownPhoto").innerHTML = newPhoto;
+    image.addEventListener("animationend", function outerAnimationEndHandler() {
+    image.removeEventListener("animationend", outerAnimationEndHandler);
+    image.classList.remove("move-to-target");
+    document.getElementById("gallery_shownPhotoimg").classList.remove("scale-out-horizontal");
+    document.getElementById("gallery_shownPhoto").innerHTML = newPhoto;
+    const animacja = ["scale-out-horizontal-reverse","fade-in-bck","rotate-in-center"]
+    image.classList.add(animacja[Math.floor(Math.random()*3)]);
+    image.addEventListener("animationend", function innerAnimationEndHandler() {
+        image.classList = "";
+        image.style.animation = "";
+        image.removeEventListener("animationend", innerAnimationEndHandler);
     });
-    
+});
 
+}
+function WyswietlCanvas(){
+    document.getElementById("page_content").innerHTML = '';
+    document.getElementById("page_content").appendChild(canvas);
 }

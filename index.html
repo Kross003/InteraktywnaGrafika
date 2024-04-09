@@ -19,7 +19,10 @@
 </div>
 <div id="top_nav">
 	<div id="top_nav_box">
-		<div class="path">Current path</div> <div class="link_nav"> <a  href="javascript:WyswietlArtykul()" > Artykuł </a></div> <div class="link_nav"><a href="javascript:WyswietlGalerie()" > Galeria </a></div> <div class="link_nav"><a href="" > Lorem 3 </a></div>
+		<div class="path">Current path</div>
+		<div class="link_nav"> <a  href="javascript:WyswietlArtykul()" > Artykuł </a></div>
+		<div class="link_nav"><a href="javascript:WyswietlGalerie()" > Galeria </a></div>
+		<div class="link_nav"><a href="javascript:WyswietlCanvas()" > Canvas </a></div>
 	</div>
 </div>
 <div id="container">
@@ -107,16 +110,23 @@
 				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/mh6.jpg" alt="Hughes MH-6 Little Bird"></a>
 				<a onclick="WyswietlGlownyObraz(this)"><img src="Galeria/v22.jpg" alt="Bell-Boeing V-22 Osprey"></a>
 			</div>
+			<h2 id="gallery_photoCaption" class="gallery_photoCaption"></h2>
 			<div class="gallery_shownPhoto" id="gallery_shownPhoto">
-				<h2 id="gallery_photoCaption" class="gallery_photoCaption"></h2>
-				<img id="gallery_shownPhotoimg" src="" width="100%">
+				
+				<img id="gallery_shownPhotoimg" src="">
 			</div>
+		</div>
+		<div id="canvas">
+			<iframe src="canvas.html" class="canvas_window" width="100%" height="650px">CANVAS</iframe>
+			
+			
 		</div>
 		<script>
 			var article = document.getElementById("article");
 			var gallery = document.getElementById("gallery");
+			var canvas = document.getElementById("canvas");
 			document.getElementById("page_content").innerHTML = "";
-			WyswietlArtykul();
+			WyswietlCanvas();
 		</script>
 	</div>
 	<!-- -->
