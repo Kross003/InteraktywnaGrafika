@@ -7,7 +7,14 @@ function WyswietlArtykul(){
     document.getElementById("page_content").innerHTML = '';
     document.getElementById("page_content").appendChild(article);
 }
-
+function WyswietlCanvas(){
+    document.getElementById("page_content").innerHTML = '';
+    document.getElementById("page_content").appendChild(canvas);
+}
+function WyswietlTrojwymiar(){
+    document.getElementById("page_content").innerHTML = '';
+    document.getElementById("page_content").appendChild(trojwymiar);
+}
 function WyswietlGlownyObraz(obraz){
     var image = obraz.firstChild;
     image.classList = "";
@@ -59,8 +66,4 @@ function WyswietlGlownyObraz(obraz){
     });
 });
 
-}
-function WyswietlCanvas(){
-    document.getElementById("page_content").innerHTML = '';
-    document.getElementById("page_content").appendChild(canvas);
 }
