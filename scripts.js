@@ -15,6 +15,11 @@ function WyswietlTrojwymiar(){
     document.getElementById("page_content").innerHTML = '';
     document.getElementById("page_content").appendChild(trojwymiar);
 }
+function WyswietlCanvasAnimacje(){
+    document.getElementById("page_content").innerHTML = '';
+    document.getElementById("page_content").appendChild(canvasAnimacje);
+}
+
 function WyswietlGlownyObraz(obraz){
     var image = obraz.firstChild;
     image.classList = "";

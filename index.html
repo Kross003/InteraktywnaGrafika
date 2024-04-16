@@ -24,6 +24,7 @@
 		<div class="link_nav"><a href="javascript:WyswietlGalerie()" > Galeria </a></div>
 		<div class="link_nav"><a href="javascript:WyswietlTrojwymiar()" > Trojwymiar </a></div>
 		<div class="link_nav"><a href="javascript:WyswietlCanvas()" > Canvas </a></div>
+		<div class="link_nav"><a href="javascript:WyswietlCanvasAnimacje()" > Canvas-Animacje </a></div>
 	</div>
 </div>
 <div id="container">
@@ -123,14 +124,18 @@
 		<div id="trojwymiar">
 			<iframe src="trojwymiar.html" class="trojwymiar_window" width="100%" height="650px">trojwymiar</iframe>
 		</div>
+		<div id="canvasAnimacje">
+			<iframe src="canvasAnimacje.html" class="canvasAnimacje_window" width="100%" height="650px">Canvas-Animacje</iframe>
+		</div>
 
 		<script>
 			var article = document.getElementById("article");
 			var gallery = document.getElementById("gallery");
 			var canvas = document.getElementById("canvas");
 			var trojwymiar = document.getElementById("trojwymiar");
+			var canvasAnimacje = document.getElementById("canvasAnimacje");
 			document.getElementById("page_content").innerHTML = "";
-			WyswietlTrojwymiar();
+			WyswietlCanvasAnimacje();
 		</script>
 	</div>
 	<!-- -->

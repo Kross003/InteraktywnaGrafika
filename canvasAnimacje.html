@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="pl-PL">
+
+<head>
+<title>Military jets</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name = "description" content = "Military jets">
+<meta name = "keywords" content = "Military, Aircraft, Jets">
+<meta name = "author" content = "KZ">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css"> </style>
+<script src="canvasAnimacje_scripts.js"></script>
+
+<style>
+body{
+    background-color: darkslategrey;
+}
+canvas{
+    background-color: aliceblue;
+}
+</style>
+</head>
+
+<body>
+    <div width="650px">
+        <div>
+            <canvas id="wykres1" width="650px">
+            </canvas>
+        </div>
+        <script>window.onload = Wykres1();</script>
+
+        <div>
+            <canvas id="AnimacjaPilki" width="550px" height="300px">
+            </canvas>
+        </div>
+        <script>window.onload = AnimacjaPilki();</script>
+
+        <div>
+            <canvas id="PieChartAnimacja" width="550px" height="300px">
+            </canvas>
+        </div>
+        <script>window.onload = PieChartAnimacja();</script>
+
+        <div>
+            <canvas id="SlupkowyAnimacja" width="550px" height="300px">
+            </canvas>
+        </div>
+        <script>window.onload = SlupkowyAnimacja();</script>
+
+    </div>
+</body>
+
+</html>
