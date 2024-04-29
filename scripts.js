@@ -19,7 +19,10 @@ function WyswietlCanvasAnimacje(){
     document.getElementById("page_content").innerHTML = '';
     document.getElementById("page_content").appendChild(canvasAnimacje);
 }
-
+function WyswietlLab6Animacje(){
+    document.getElementById("page_content").innerHTML = '';
+    document.getElementById("page_content").appendChild(lab6Animacje);
+}
 function WyswietlGlownyObraz(obraz){
     var image = obraz.firstChild;
     image.classList = "";

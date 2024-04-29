@@ -25,6 +25,7 @@
 		<div class="link_nav"><a href="javascript:WyswietlTrojwymiar()" > Trojwymiar </a></div>
 		<div class="link_nav"><a href="javascript:WyswietlCanvas()" > Canvas </a></div>
 		<div class="link_nav"><a href="javascript:WyswietlCanvasAnimacje()" > Canvas-Animacje </a></div>
+		<div class="link_nav"><a href="javascript:WyswietlLab6Animacje()" > Lab6-Animacje </a></div>
 	</div>
 </div>
 <div id="container">
@@ -118,14 +119,18 @@
 				<img id="gallery_shownPhotoimg" src="">
 			</div>
 		</div>
-		<div id="canvas">
-			<iframe src="canvas.html" class="canvas_window" width="100%" height="650px">CANVAS</iframe>
-		</div>
 		<div id="trojwymiar">
 			<iframe src="trojwymiar.html" class="trojwymiar_window" width="100%" height="650px">trojwymiar</iframe>
 		</div>
+		<div id="canvas">
+			<iframe src="canvas.html" class="canvas_window" width="100%" height="950px">CANVAS</iframe>
+		</div>
 		<div id="canvasAnimacje">
-			<iframe src="canvasAnimacje.html" class="canvasAnimacje_window" width="100%" height="650px">Canvas-Animacje</iframe>
+			<iframe src="canvasAnimacje.html" class="canvasAnimacje_window" width="100%" height="1250px">Canvas-Animacje</iframe>
+		</div>
+
+		<div id="Lab6Animacje">
+			<iframe src="Lab6-Animacje.html" class="canvasAnimacje_window" width="100%" height="850px">Lab6-Animacje</iframe>
 		</div>
 
 		<script>
@@ -134,8 +139,9 @@
 			var canvas = document.getElementById("canvas");
 			var trojwymiar = document.getElementById("trojwymiar");
 			var canvasAnimacje = document.getElementById("canvasAnimacje");
+			var lab6Animacje = document.getElementById("Lab6Animacje");
 			document.getElementById("page_content").innerHTML = "";
-			WyswietlCanvasAnimacje();
+			WyswietlLab6Animacje();
 		</script>
 	</div>
 	<!-- -->
