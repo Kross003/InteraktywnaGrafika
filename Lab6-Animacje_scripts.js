@@ -169,7 +169,7 @@ function Arkanoid(){
     var plate = {};
     var drawGameOver = false;
     var score = 0;
-    var level = 8;
+    var level = 1;
 
     var ball = { x: canvas.width/2, y: canvas.height/2, r: 10, vx: 100, vy: -150 };
     var area = { x: 0, y: 0, width: canvas.width, height: canvas.height };
