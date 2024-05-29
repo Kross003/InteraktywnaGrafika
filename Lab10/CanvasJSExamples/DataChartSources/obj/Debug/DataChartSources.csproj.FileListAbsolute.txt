@@ -1,0 +1,12 @@
+D:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\bin\Debug\DataChartSources.dll
+D:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\bin\Debug\DataChartSources.pdb
+D:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\obj\Debug\DataChartSources.csproj.AssemblyReference.cache
+D:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\obj\Debug\DataChartSources.csproj.CoreCompileInputs.cache
+D:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\obj\Debug\DataChartSources.dll
+D:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\obj\Debug\DataChartSources.pdb
+E:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\bin\Debug\DataChartSources.dll
+E:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\bin\Debug\DataChartSources.pdb
+E:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\obj\Debug\DataChartSources.csproj.AssemblyReference.cache
+E:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\obj\Debug\DataChartSources.csproj.CoreCompileInputs.cache
+E:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\obj\Debug\DataChartSources.dll
+E:\Semestr6\Interaktywnagrafika\Lab10\CanvasJSExamples\DataChartSources\obj\Debug\DataChartSources.pdb

@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<html>
+<head>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/chart.min.js"></script>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <style>
+        #chartDiv {
+            width: 800px;
+            height: 400px;
+            border: solid 1px;
+            padding: 1px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Chartjs - Wykres Kolowy</h2>
+    <div id="chartDiv">
+        <canvas id="pieChart" />
+    </div>
+    <script type="text/javascript">
+        var labels = @Html.Raw(ViewBag.labels);
+        var y1 = @Html.Raw(ViewBag.y1);
+        var ctx = $("#pieChart");
+        var barChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: labels, datasets: [{
+                    label: '2010', data: y1, backgroundColor: [
+                                        'rgba(75, 192, 192, 0.6)',
+                                        'rgba(54, 162, 235, 0.6)',
+                                        'rgba(255, 206, 86, 0.6)',
+                                        'rgba(153, 102, 255, 0.6)',],
+                },
+                ]
+            },
+            config: {
+                responsive: true, plugins: {
+                    legend: {
+                        position: 'top',
+                    }, title: {
+                        display: true, text: 'Example of the line chart'
+                    }
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
+
+

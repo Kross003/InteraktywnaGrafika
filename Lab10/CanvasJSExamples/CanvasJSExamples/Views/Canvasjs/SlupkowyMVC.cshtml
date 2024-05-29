@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Bar Chart";
+    var barChart = ViewBag.BarChart;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Chart.js - Bar Chart</h2>
+    <div style="width: 800px; height: 400px;">
+        <canvas id="barChart"></canvas>
+    </div>
+    <script>
+        var ctx = document.getElementById('barChart');
+        var chartData = @Html.Raw(barChart);
+        var chart = new Chart(ctx, chartData);
+    </script>
+</body>
+</html>

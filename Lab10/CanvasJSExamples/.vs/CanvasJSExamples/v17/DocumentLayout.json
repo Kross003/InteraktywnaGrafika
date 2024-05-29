@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27BEA4D9-CEBB-4BEA-A96F-34F5432E0136}|CanvasJSExamples\\CanvasJSExamples.csproj|d:\\semestr6\\interaktywnagrafika\\lab10\\canvasjsexamples\\canvasjsexamples\\controllers\\canvasjscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27BEA4D9-CEBB-4BEA-A96F-34F5432E0136}|CanvasJSExamples\\CanvasJSExamples.csproj|solutionrelative:canvasjsexamples\\controllers\\canvasjscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A3D9D0-48A6-4F84-8A6E-A674E29CB5BF}|DataChartSources\\DataChartSources.csproj|d:\\semestr6\\interaktywnagrafika\\lab10\\canvasjsexamples\\datachartsources\\f1class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A3D9D0-48A6-4F84-8A6E-A674E29CB5BF}|DataChartSources\\DataChartSources.csproj|solutionrelative:datachartsources\\f1class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A3D9D0-48A6-4F84-8A6E-A674E29CB5BF}|DataChartSources\\DataChartSources.csproj|d:\\semestr6\\interaktywnagrafika\\lab10\\canvasjsexamples\\datachartsources\\f2class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A3D9D0-48A6-4F84-8A6E-A674E29CB5BF}|DataChartSources\\DataChartSources.csproj|solutionrelative:datachartsources\\f2class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27BEA4D9-CEBB-4BEA-A96F-34F5432E0136}|CanvasJSExamples\\CanvasJSExamples.csproj|d:\\semestr6\\interaktywnagrafika\\lab10\\canvasjsexamples\\canvasjsexamples\\controllers\\wykresycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27BEA4D9-CEBB-4BEA-A96F-34F5432E0136}|CanvasJSExamples\\CanvasJSExamples.csproj|solutionrelative:canvasjsexamples\\controllers\\wykresycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A3D9D0-48A6-4F84-8A6E-A674E29CB5BF}|DataChartSources\\DataChartSources.csproj|d:\\semestr6\\interaktywnagrafika\\lab10\\canvasjsexamples\\datachartsources\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A3D9D0-48A6-4F84-8A6E-A674E29CB5BF}|DataChartSources\\DataChartSources.csproj|solutionrelative:datachartsources\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A3D9D0-48A6-4F84-8A6E-A674E29CB5BF}|DataChartSources\\DataChartSources.csproj|d:\\semestr6\\interaktywnagrafika\\lab10\\canvasjsexamples\\datachartsources\\liniowyinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A3D9D0-48A6-4F84-8A6E-A674E29CB5BF}|DataChartSources\\DataChartSources.csproj|solutionrelative:datachartsources\\liniowyinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CanvasjsController.cs",
+              "DocumentMoniker": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\CanvasJSExamples\\Controllers\\CanvasjsController.cs",
+              "RelativeDocumentMoniker": "CanvasJSExamples\\Controllers\\CanvasjsController.cs",
+              "ToolTip": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\CanvasJSExamples\\Controllers\\CanvasjsController.cs",
+              "RelativeToolTip": "CanvasJSExamples\\Controllers\\CanvasjsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:44:25.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "F2Class.cs",
+              "DocumentMoniker": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\DataChartSources\\F2Class.cs",
+              "RelativeDocumentMoniker": "DataChartSources\\F2Class.cs",
+              "ToolTip": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\DataChartSources\\F2Class.cs",
+              "RelativeToolTip": "DataChartSources\\F2Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:28:41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "F1Class.cs",
+              "DocumentMoniker": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\DataChartSources\\F1Class.cs",
+              "RelativeDocumentMoniker": "DataChartSources\\F1Class.cs",
+              "ToolTip": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\DataChartSources\\F1Class.cs",
+              "RelativeToolTip": "DataChartSources\\F1Class.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:21:54.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LiniowyInterface.cs",
+              "DocumentMoniker": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\DataChartSources\\LiniowyInterface.cs",
+              "RelativeDocumentMoniker": "DataChartSources\\LiniowyInterface.cs",
+              "ToolTip": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\DataChartSources\\LiniowyInterface.cs",
+              "RelativeToolTip": "DataChartSources\\LiniowyInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:17:01.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\DataChartSources\\Class1.cs",
+              "RelativeDocumentMoniker": "DataChartSources\\Class1.cs",
+              "ToolTip": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\DataChartSources\\Class1.cs",
+              "RelativeToolTip": "DataChartSources\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:11:29.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WykresyController.cs",
+              "DocumentMoniker": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\CanvasJSExamples\\Controllers\\WykresyController.cs",
+              "RelativeDocumentMoniker": "CanvasJSExamples\\Controllers\\WykresyController.cs",
+              "ToolTip": "D:\\Semestr6\\Interaktywnagrafika\\Lab10\\CanvasJSExamples\\CanvasJSExamples\\Controllers\\WykresyController.cs",
+              "RelativeToolTip": "CanvasJSExamples\\Controllers\\WykresyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:09:11.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
